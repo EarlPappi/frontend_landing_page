@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Project</title>
+
+    <link rel="stylesheet" href="../css/form_style.css">
+</head>
+<body>
+    <div class="outer_div">
+
+        
+            
+            <form action="">
+                <h1>Application Form for Permission to Date my Daughter</h1>
+                <p><strong>Note:</strong> Form is to be completed at least 21 days prior to date my Daughter</p>
+                <fieldset>
+                    <legend><strong>Personal Details</strong></legend>
+                    Name: <input type="text" placeholder="Enter name here" id="name"> <br>
+                    Address:<input type="text" placeholder="Enter your Address here" id="add"> <br>
+                    Email: <input type="email" placeholder="Enter a valid email" id="email"><br>
+                    IQ: <input type="text" placeholder="Enter IQ here" id="iq"><br>
+                    Gender:<br>
+                    <input type="radio" value="male">Male <br>
+                    <input type="radio" value="female">Female <br>
+                    <input type="radio" value="other">Other <br>
+
+                    Date of Proposed Outing:
+                    <input type="date">
+                </fieldset>
+
+                <fieldset>
+                    <p><strong>Check all that Apply</strong></p>
+                    <input type="checkbox" value="tattoo">I have tattoos and/or piercing <br>
+                    <input type="checkbox" value="years_older">I am more than 2 years older than my Daughter <br>
+                    <input type="checkbox" value="vehicle">I own a panel van or V8 <br>
+                    <input type="checkbox" value="employment_status">I work full time <br>
+                    <input type="checkbox" value="rich_folks">My parent are rich <br>
+                    <input type="checkbox" value="social">Is the date at a well lit public location <br>
+                </fieldset>
+
+                <fieldset>
+                    Political Party: 
+                    <select name="party" id="">
+                        <option value="0" selected disabled>Pick one option</option>
+                        <option value="cad">CAD</option>
+                        <option value="amd">AMD</option>
+                        <option value="usd">USD</option>
+                        <option value="others">Others</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Essay Section</legend>
+                    In not less than 50 words, explain why you want to date my Daughter
+                    <input type="textarea">
+                    Upload Police Clearance certificate, Bank statement and Medical Certificates
+                    <button type="">Attach file</button>
+                </fieldset>
+
+                <button id="submitt">Submit Application</button>
+
+
+            </form>
+       
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first webpage</title>
+    </head>
+<body>
+    <h1>Playing around with tags and Lists</h1>
+    <h2>My typa cars</h2>
+    <ol>
+        <li>Lambo Urus</li>
+        <li>Benz Mercedes</li>
+        <li>Range Rovers</li>
+        <li>Ferari</li>
+    </ol>
+
+    <h1>Lets try some form</h1>
+
+    <div>
+        <form>
+            <label for='your_name'>Your name: </label>
+            <input type="text" name="your_name" placeholder="Tell me your name mf" required> <br/>
+
+            <p>Gender:
+                <label for="gender_male">Male</label>
+                <input type="radio" name='gender_choice'> 
+
+                <label for="gender_female">Female</label>
+                <input type="radio" name='gender_choice'>
+            </p>
+
+            <label for="email">Email: </label>
+            <input type="email" name="email" placeholder="example@email.com" required>
+            <br/>
+
+            <label for="password">Password: </label>
+            <input type="password" name="password">
+
+            <p>
+                <label for="month">Birth Month: </label>
+                <select name="month" id="birthMonth" required>
+                    <option value="0" selected disabled>Select month</option>
+                    <option value="jan">January</option>
+                    <option value="feb">February</option>
+                    <option value="mar">March</option>
+                    <option value="apr">April</option>
+                    <option value="may">May</option>
+                    <option value="jun">June</option>
+                    <option value="jul">July</option>
+                    <option value="aug">August</option>
+                    <option value="sep">September</option>
+                    <option value="oct">October</option>
+                    <option value="nov">November</option>
+                    <option value="dec">December</option>
+                </select>
+            </p>
+
+            <label for="agree">Accept all terms and conditions</label>
+            <input type="checkbox" name='agree' required>
+
+            <button name="submit">Submit</button>
+
+
+
+        </form>
+
+    </div>
+</body>
+</html>
